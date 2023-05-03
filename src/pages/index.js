@@ -6,13 +6,19 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <h1>Main 화면</h1>
-      <Link href="/main">
-        <p>test 화면</p>
-      </Link>
-      {/* <Link href="/detail">
-        <p>여행지 상세 페이지</p>
-      </Link> */}
+      <div className="flex items-center justify-center h-screen bg-gray-100">
+        <title>Hello, World!</title>
+        <link rel="icon" href="/favicon.ico" />
+        <main className="max-w-lg p-4 bg-white rounded-lg shadow-lg">
+          <h1 className="mb-4 text-2xl font-bold">Hello, World!</h1>
+          <p className="text-gray-800">
+            <a href="/main">Main Page</a>
+          </p>
+          <p className="text-gray-800">
+            <a href="/recruit">Recruit Page</a>
+          </p>
+        </main>
+      </div>
     </>
   );
 }
