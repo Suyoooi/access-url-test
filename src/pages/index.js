@@ -15,7 +15,13 @@ export default function Home() {
             <a href="/main">Main Page</a>
           </p>
           <p className="text-gray-800">
+            <a href="/login">Login Page</a>
+          </p>
+          <p className="text-gray-800">
             <a href="/recruit">Recruit Page</a>
+          </p>
+          <p className="text-gray-800">
+            <a href="/company">Company Page</a>
           </p>
         </main>
       </div>
