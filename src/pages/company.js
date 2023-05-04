@@ -11,6 +11,7 @@ export default function Company(props) {
       !props.referrer ||
       !props.referrer.startsWith("https://localhost:3000")
     ) {
+      //"/company"로 갔을 때 돌아갈 경로
       router.push("/");
     }
   }, []);
